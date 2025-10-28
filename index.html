@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <!-- displays site properly based on user's device -->
 
     <link
@@ -26,7 +32,28 @@
       }
     </style>
   </head>
-  <body class="bg-slate-300 min-h-screen">
-    <div class="bg-white h-"></div>
+  <body
+    class="bg-slate-300 min-h-screen flex justify-center items-center font-['Outfit']"
+  >
+    <div
+      class="bg-white h-96 w-60 flex flex-col rounded-[20px] p-3 space-y-6 justify-center items-center"
+    >
+      <div class="">
+        <img
+          src="./images/image-qr-code.png"
+          alt="image-qr-code"
+          class="w-64 h-50 rounded-[10px]"
+        />
+      </div>
+      <div class="w-48 text-center space-y-3">
+        <h1 class="font-bold">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="text-xs text text-slate-500">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
   </body>
 </html>
